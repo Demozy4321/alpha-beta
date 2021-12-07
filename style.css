@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 .board {
     width: 400px;
     margin: auto
@@ -12,3 +16,24 @@
     max-height: 100px;
     overflow-y: scroll;
 }
+
+@media only screen and (max-width: 1000px) {    
+    
+    .board {
+        min-width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .info {
+        width: 80%;
+        margin: auto;
+        font-size: medium;
+    }
+    
+    .move-history {
+        max-height: 100px;
+        overflow-y: scroll;
+    }
+  }
+  
