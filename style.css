@@ -28,7 +28,7 @@ body{
     .info {
         width: 80%;
         margin: auto;
-        font-size: medium;
+        font-size: 60px;
     }
     
     .move-history {
